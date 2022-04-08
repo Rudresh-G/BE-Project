@@ -4,7 +4,7 @@ import time
 # -- SETUP --
 arduino_port = 'COM4'
 baud = 115200
-headers = "Time,Voltage[V],Current[mA],Temp-1[C],Temp-2[C],Temp-3[C],Fan_Speed[RPM],PWM_Duty[%]"
+headers = "Time,Voltage[V],Current[A],Temp-1[C],Temp-2[C],Temp-3[C],Fan_Speed[RPM],PWM_Duty[%]"
 
 
 # -- main code --
